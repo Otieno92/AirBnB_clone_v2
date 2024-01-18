@@ -9,14 +9,14 @@ app = Flask(__name__)
 
 @app.route('/', strict_slashes=False)
 def index():
-    """returns Hello CBNB!"""
-    return 'Hello CBNB!'
+    """returns Hello HBNB!"""
+    return 'Hello HBNB!'
 
 
-@app.route('/cbnb', strict_slashes=False)
+@app.route('/hbnb', strict_slashes=False)
 def hbnb():
-    """returns CBNB"""
-    return 'CBNB'
+    """returns HBNB"""
+    return 'HBNB'
 
 
 @app.route('/c/<text>', strict_slashes=False)
