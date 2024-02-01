@@ -13,7 +13,7 @@ echo "Hello World again!" > /data/web_static/releases/test/index.html
 # Check if directory current exist
 if [ -d "/data/web_static/current" ]
 then
-        sudo rm -rf /data/web_static/current
+	sudo rm -rf /data/web_static/current
 fi
 # Create a symbolic link to test
 ln -sf /data/web_static/releases/test/ /data/web_static/current
